@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header-container {
+      color: #97D4AB;
+      font-family: sans-serif;
+      margin-bottom: 2%;
+  }
+
+  .box-container {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 100%;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.33%;
+    padding: 2%;
+  }
+
+  .box h3 {
+    color: #71B687;
+  }
+
+  .box p {
+    width: 60%;
+    text-align: center;
+    color: #3C6A65;
+    margin-top: 0%;
+  }
+  
+  .img-container {
+    width: 50%;
+    height: 300px;
+  }
+
+  

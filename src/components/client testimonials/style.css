@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container {
+    color: #97D4AB;
+    font-family: sans-serif;
+}
+
+.caption-container {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width:50%;
+}
+
+.caption-container h2 {
+    color: #71B687;
+    font-size:small;
+    width:35%;
+    margin-top: 3%;
+    margin-right: 13%;
+}
+
+.caption-container p {
+    text-align: left;
+    font-size:large;
+    color: #3C6A65;
+}
+
+
+
