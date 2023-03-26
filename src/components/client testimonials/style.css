@@ -1,9 +1,9 @@
-.container {
+.client-container{
   display: flex;
   flex-direction: column;
 }
 
-.header-container {
+.client-header-container {
     color: #97D4AB;
     font-family: sans-serif;
 }

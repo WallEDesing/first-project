@@ -3,8 +3,8 @@ import "./style.css";
 
 const ClientTestimonials = () => {
   return (
-    <div className="container">
-      <h1 className="header-container">Client Testimonials</h1>
+    <div className="client-container">
+      <h1 className="client-header-container">Client Testimonials</h1>
       <div className="caption-container">
         <h2>NANCY BRYANT</h2>
 

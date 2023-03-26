@@ -7,8 +7,8 @@ import { BsArrowDownCircle } from "react-icons/bs";
 
 const OurServices = () => {
   return (
-    <div className="container">
-      <h1 className="header-container">Our Services</h1>
+    <div className="our-container">
+      <h1 className="our-header-container">Our Services</h1>
       <div className="box-container">
         <div className="box" style={{ backgroundColor: "#F7FDF3" }}>
           <img src={flower} className="img-container" />
