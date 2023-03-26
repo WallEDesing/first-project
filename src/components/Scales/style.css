@@ -1,0 +1,30 @@
+.Main-content { 
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1080px;
+    font-size: 30px;
+}
+.content img {
+    width: 180px;
+}
+.content h1{
+    color: #347571;
+    margin: 20px;
+}
+.content p{
+    position: relative;
+    top: -10%;
+    width: 50%;
+    height: 35px;
+    color: #5ec57e;
+}
