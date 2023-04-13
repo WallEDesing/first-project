@@ -5,24 +5,22 @@
     background-color: #ecf8e5;
     padding-top: 5.5%;
     padding-bottom: 5.5%;
-    display: flex;
-    justify-content: center;
-    position: relative;
 }
 .Headericon{
+    position: absolute;
     display: flex;
-    margin-right: 50%;
+    left: 10%;
+    margin-right: 30%;
     align-items: center;
     justify-content: space-around;
     height: 100px;
     width: 200px;
-
+    z-index: 1;
 }
 img{
     width: 50px;
 }
 .Headercontent{
-    margin-left: 0.5%;
     margin-top: 0.5%;
     text-align: left;
     color: #347571;
@@ -34,25 +32,28 @@ ul {
 }
 
 .Headermain-content {
-    /* border: red solid; */
+    z-index: 0;
+    width: 100%;
+    height: 80%;
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .Headermonitor {
+    margin-right: 10%;
     size: 25px;
 }
 
 .Headertext {
-    margin: 10%;
-    position: absolute;
-    /* top: 10%; */
-    right: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 35%;
     color: #347571;
     font-size: 50px;
-    /* font-weight: 50; */
     line-height: 50px;
-    align-items: center;
-    text-align: initial;
+    align-self: center;
+    text-align: left;
 }
  
 .Headerbtn {
@@ -65,7 +66,7 @@ ul {
     font-weight: bolder;
     background-color: #5ec57e;
     position: absolute;
-    width: 50%;
+    width: 20%;
 
     
 }
@@ -89,11 +90,8 @@ p {
 }
 
 .Headericon-button {
-    align-items: center;
-    display: flex;
-    flex-wrap: nowrap;
-    height: 150%;
     position: absolute;
+    left: 50%;
 }
 
 .about-pic {

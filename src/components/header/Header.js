@@ -18,19 +18,19 @@ const Header = () => {
         </div>
       </div>
       <div className="Headermain-content">
-        <div className="Headermonitor">
-          <img
-            src="	https://greenhello.my.canva.site/images/2a84a7bbc246045f465332a3d57ef7c5.svg"
-            alt=""
-          />
-        </div>
-        <div className="Headertext">
+      <div className="Headertext">
           <p>
             Get peace of mind knowing that your taxes are handled by experts.
           </p>
           <div className="Headerbutton-sec">
             <button className="Headerbtn">Start Now</button>
           </div>
+        </div>
+        <div className="Headermonitor">
+          <img
+            src="	https://greenhello.my.canva.site/images/2a84a7bbc246045f465332a3d57ef7c5.svg"
+            alt=""
+          />
         </div>
       </div>
       <div className="Headericon-button">
